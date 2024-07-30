@@ -6,11 +6,11 @@
 module.exports = {
     client: 'mysql2',
     connection: {
-      host: '127.0.0.1',
-      port: 2323,
-      user: 'neuvisk',
-      password: '168088',
-      database: 'vrp'
+      host: 'sua_host',
+      port: 3306, // Normalmente é 3306
+      user: 'seu_usuario',
+      password: 'sua_senha',
+      database: 'nome_da_db'
     },
     pool: {
       min: 2,
